@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Formulario de prueba</title>
+</head>
+
+<body>
+
+  <form action="https://test.jaureguialzo.com/server.php" method="post">
+
+    <fieldset>
+      <legend>Datos personales:</legend>
+      Nombre: <br><input type="text"><br>
+      Apellidos: <br><input type="text"><br>
+      F. Nacimiento: <br><input type="text"><br>
+    </fieldset>
+    <fieldset width="3">
+      <legend>Datos de contacto:</legend>
+      Teléfono: <br><input type="text" pattern="`[0-9]{3}"><br> <!-- patrones de control o validacion-->
+
+      Email: <br><input type="text"><br>
+    </fieldset>
+<br>
+    <input type="submit" value="Enviar">
+  </form>
+
+</body>
+
+</html>
