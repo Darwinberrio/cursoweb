@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <body>
+
+      <h2>Formulario de registro</h2>
+
+      <form>
+        <fieldset>
+          <legend>Datos Personales:</legend>
+          <label for="nombre">Nombre:</label><br>
+          <input required type="text" id="nombre" name="nombre"><br>
+          <label for="apellido">Apellidos:</label><br>
+          <input type="text" id="apellido" name="apellido"><br>
+          <label for="edad">Edad:</label><br>
+          <input type="text" id="edad" name="edad"><br><br>
+          <label for="Sexo">Sexo:</label><br>
+          <input type="radio" id="masculino" name="genero" value="masculino">
+          <label for="masculino">Masculino</label><br>
+          <input type="radio" id="femenino" name="genero" value="femenino">
+          <label for="femenino">Femenino</label><br>
+          <input type="radio" id="otro" name="genero" value="otro">
+          <label for="otro">Otro</label><br><br>
+          <label for="Poblacion">Poblacion:</label>
+          <select id="cars" name="cars">
+            <option value="Vitoria">Vitoria</option>
+            <option value="Madrid" selected>Madrid</option>
+            <option value="Bilbao">Bilbao</option>
+            <option value="Donosti">Donosti</option>
+          </select><br><br>
+            <label for="Descripcion">Descripcion:</label><br>
+            <textarea name="mensaje" rows="10" cols="30"></textarea><br><br>
+
+            <input type="checkbox" id="check1" name="check1">
+            <label for="check1"> Deseo recibir informacion sobre novedades y ofertas </label><br>
+            <input type="checkbox" id="check2" name="check2">
+            <label for="check2"> Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre proteccion de datos</label><br>
+        </fieldset>
+        <br><br>
+        <input type="submit">
+      </form>
+  </body>
+</html>
