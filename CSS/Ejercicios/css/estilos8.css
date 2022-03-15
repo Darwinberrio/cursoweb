@@ -1,0 +1,15 @@
+body {
+background: #d5ffd0 url(../Imagenes/bird.jpg) no-repeat 50% 0%;
+}
+
+table.especial { 
+font: x-large sans-serif;
+color: blue;
+text-align: center;
+position: relative;
+left: 50%;
+}
+
+th,td{
+border: 4px solid blue;
+}

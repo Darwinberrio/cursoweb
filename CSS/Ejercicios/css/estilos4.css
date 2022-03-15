@@ -1,0 +1,21 @@
+body{
+background-image: url(../Imagenes/bird.jpg);
+}
+ul { 
+list-style-type: square; 
+font: 2em sans-serif,Times,Times New Roman;
+color: blue; 
+background-color: #c0c0c0;
+width:30%;     /*anchura del elemento*/
+float: right; /*posicion del elemento*/
+}
+
+ol { 
+font: 2em sans-serif,Times,Times New Roman;
+color: red; 
+background-color: olive;
+width:30%;
+/* position: absolute;
+top:5em;
+left: 5em; */
+}

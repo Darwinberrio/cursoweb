@@ -1,0 +1,22 @@
+body{
+margin: 3em; /*top right bottom left iguales*/
+border: 8px dashed red; /*medida estilo color*/
+padding: 1em; /*top right bottom left iguales*/
+width: 80%;
+}
+p, div { 
+font: x-large Arial; /*tamañodeletra tipodeletra*/
+text-align: justify; 
+}
+p.especial {
+border: 8px groove gray;  
+background-color: #c0c0c0; /* color plateado para el fondo del elemento*/
+color: #4762B0; /* color del texto del elemento*/
+font: xx-large Arial;
+text-indent: 5%;
+}
+span {
+background-color: purple; /*se pueden usar palabras clave para los colores, hay 17 definidos.*/
+font-weight: bold;
+text-decoration: underline;
+}

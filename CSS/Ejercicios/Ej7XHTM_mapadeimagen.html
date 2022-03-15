@@ -1,0 +1,28 @@
+<html>
+<head>
+<title> EJEMPLO DE MAPA DE IMAGEN Y MÚSICA DE FONDO</title>
+<bgsound src="Sonidos/bubbles.wav" alt="burbujas" 
+loop="infinite"> </bgsound>
+</head>
+<body>
+<p> Se trata de dividir una imagen en zonas o regiones y asignar a cada 
+una de ellas un enlace.</p>
+<p> Cada región, que puede ser de distintas formas, rectangular,  circular,... se define por sus coordenadas en la imagen original.</p>
+<p> Para hacer esta prueba puedes usar Paint. Abre la imagen en Paint, la barra de estado muestra en todo momento las coordenadas de la posición del cursor en la imagen. Sólo tienes que anotarlo en el atributo <em>coords</em> de la etiqueta <em>area </em>.</p>
+
+<ul>
+<li>Para un rectángulo, se dan las coordenadas X,Y del vértice superior izquierdo e inferior 
+derecho.</li>
+<li>Para un círculo, se dan las cooordenadas X,Y del centro y el radio.</li>
+</ul>
+
+<img src="Imagenes/dog.jpg" usemap="#dosperros" />
+
+<map name="dosperros">
+<area shape="rect" coords="300,200,600,600" href="http://www.unican.es" />
+<area shape="circle" coords="600,390,100" href="Ej6XHTML.html" />
+</map>
+
+</body>
+</html>
+
