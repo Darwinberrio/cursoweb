@@ -1,0 +1,19 @@
+h1{
+   border-bottom: 2px solid black;
+   color: #2ab4bd;
+   padding-left: 30%;
+   padding-bottom: 1%;
+}
+h2{
+    border-bottom: 1px solid #2ab4bd;
+    border-bottom-style: dotted;
+    width:50%;
+}
+span{
+  color: #2ab4bd;
+  text-decoration: underline;
+  font-weight: bold;
+}
+{
+  color: green;
+}
