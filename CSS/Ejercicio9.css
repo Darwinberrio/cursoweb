@@ -1,0 +1,46 @@
+section{
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  margin: 10px;
+  display: inline-block;
+}
+
+#s1{
+  box-shadow: -5px -3px #a7a7a7;
+}
+
+#s2{
+  box-shadow: -5px -3px 3px #a7a7a7;
+}
+
+#s3{
+  box-shadow: 5px 5px 5px 5px #C2C2C2;
+}
+
+#s4{
+  box-shadow: inset 5px 5px 1px black, 5px 5px 1px #424242;
+}
+
+#s5{
+  box-shadow: -5px -3px 3px #424242;
+}
+#s6{
+  box-shadow: inset 0px 0px 10px 10px #424242;
+}
+
+/*
+#div4{
+  box-shadow: inset 5px 5px 1px black, 5px 5px 0px #a7a7a7;
+}
+
+#div5{
+  box-shadow: -5px -5px 3px black, 5px 5px 3px #a7a7a7;
+}
+
+#div6{
+  box-shadow: 0 0 20px,
+  5px 5px 0px black,
+  -5px -5px 0px black,
+
+}*/

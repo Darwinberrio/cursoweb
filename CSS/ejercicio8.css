@@ -1,0 +1,44 @@
+/* Archivos .woff o .woff2 descargadas en el directorio de tuweb.*/
+@font-face {
+font-family: 'Wholecar';
+src: url('Wholecar_PERSONAL_USE_ONLY.otf')format('otf'),
+url('WholecarInvert_PERSONAL_USE_ONLY')format('otf2');
+}
+
+body {
+font-family: 'Wholecar',Wholecar_PERSONAL_USE_ONLY;
+}
+
+/* @font-face {
+  font-family: 'Roboto Mono';
+  src: url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&display=swap')format('woff');
+} */
+
+/*Fuentes cargadas de servidores remotos mediante <link>*/
+
+/* @font-face {
+  font-family: 'Inspiration';
+  src: url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap')format('woff');
+} */
+
+/* #seccion2{
+  font-family: 'Roboto Mono', monospace;
+} */
+
+/* @font-face {
+font-family: 'Smokum Regular';
+  src: url('Smokum-Regular.ttf')format('ttf');
+}
+#seccion1 {
+  font-family: 'Smokum Regular',sans-serif;
+} */
+
+/*Fuentes cargadas de servidores remotos mediante @import*/
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+#seccion3{
+  font-family: 'Inspiration', cursive;
+}
+
+/* #seccion4 {
+  font-family: 'Open Sans',sans-serif;
+} */
