@@ -1,0 +1,31 @@
+.contenedor{
+  display:flex;
+  justify-content: space-around;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  box-shadow: 0px 0px 7px 0px lightgrey;
+  border: 0;
+}
+.cuerpo{
+  flex: 1 1 0;
+  padding: 8px;
+}
+.title{
+  background: black;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+}
+.pie{
+  background: darkgray;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+}
