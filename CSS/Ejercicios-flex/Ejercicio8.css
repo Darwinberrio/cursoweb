@@ -1,33 +1,34 @@
 body{
   font-family: sans-serif;
-  height: 100vmin;
+  width: 1000px;
 }
 /*header*/
 .cabecera{
   text-align: center;
   padding: 30px;
   background: #fa8071;
+  width: auto;
   height: 150px;
   color:white;
 }
 /*nav*/
 .menu{
-    display: flex;
-    width: 100%;
-    background-color: red;
+    position: absolute;
+    width: inherit;
+    background-color: #19bc97;
 }
 .menuI{
-    display:flex;
-    justify-content: flex-start;
+    float: left;
+    align-items: flex-start;
     width: max-content;
     background-color: #19bc97;
 }
 .menuD{
-    display:flex;
-    justify-content: flex-end;
+    float: right;
+    align-items: flex-end;
     width: max-content;
+    background-color: #19bc97;
 }
-
 ul{
   display:flex;
   flex-direction: row;
@@ -49,7 +50,6 @@ ul a, ul a:link{
   display:block;
   width:100%;
 }
-
 a:hover{
   background-color: darkgreen;
   color: white;
@@ -60,16 +60,53 @@ section{
   text-align: center;
 }
 .cuerpo{
+  width: auto;
   display: flex;
-  height: 100%;
 }
 .sidebar{
-  flex: 1 1 0;
-  background: #4D4F52;
-  color: white;
+  background: #f1f1f1;
   padding: 24px;
+  text-align: left;
 }
-.centro{
-  flex: 2 1 0;
+.cuadro{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  width: 250px;
+  height: 200px;
+  background: #cccccc;
+  list-style: none;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+.principal{
+  width: auto;
   padding: 24px;
+  text-align: left;
 }
+
+.rectangulo{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  width: 668px;
+  height: 200px;
+  background: #cccccc;
+  padding:0px;
+  list-style: none;
+  font-family: sans-serif;
+}
+.pie{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  width:100%;
+  height: 50px;
+  background: #cccccc;
+  padding:0px;
+  list-style: none;
+  font-family: sans-serif;
+  }
