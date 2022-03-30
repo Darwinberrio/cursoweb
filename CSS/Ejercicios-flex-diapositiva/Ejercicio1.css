@@ -1,0 +1,41 @@
+.contenedor{
+display: flex;
+}
+
+.vertical{
+  background-color: lightblue;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.it{
+  height: inherit;
+  background-color: blue;
+  width: inherit;
+  border: 1px solid white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.horizontal{
+  background-color: lightblue;
+  width: 500px;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  margin: 70px 50px;
+  flex-direction: row-reverse;
+}
+.ith{
+  height: inherit;
+  background-color: blue;
+  width: 50px;
+  border: 1px solid white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}

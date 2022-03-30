@@ -19,13 +19,13 @@ body{
 }
 .menuI{
     float: left;
-    align-items: flex-start;
+    /*align-items: flex-start;*/
     width: max-content;
     background-color: #19bc97;
 }
 .menuD{
     float: right;
-    align-items: flex-end;
+    /*align-items: flex-end;*/
     width: max-content;
     background-color: #19bc97;
 }
