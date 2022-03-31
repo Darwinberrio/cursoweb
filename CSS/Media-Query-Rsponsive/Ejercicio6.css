@@ -1,0 +1,35 @@
+.page {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 401px) and (max-width: 961px) {
+  .sign-up,
+  .feature-1,
+  .feature-2,
+  .feature-3,{
+    width: 50%;
+  }
+}
+/*desktop Styles*/
+@media only screen and (min-width: 961px) {
+  .page {
+    width: 960px;
+    margin: 0 auto;
+  }
+  .feature-1,
+  .feature-2,
+  .feature-3,{
+    width: 33,3%;
+  }
+  .header{
+    height: 400px;
+  }
+}

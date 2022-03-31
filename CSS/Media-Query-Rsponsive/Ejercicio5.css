@@ -1,0 +1,63 @@
+body{
+  font-family: sans-serif;
+  flex-direction: column;
+  display:flex;
+  height: 100vh;
+}
+header{
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px;
+  background: #009688;
+  height: 24px;
+}
+main, header{
+  text-align: center;
+}
+main{
+  display: flex;
+  height: 100%;
+}
+.lateral{
+  flex: 1;
+  background: #ff9800;
+  color: white;
+  padding: 24px;
+}
+.centro{
+  flex: 2;
+  padding: 24px;
+}
+/* Estilos para moviles */
+@media only screen and (min-width: 401px) and
+(max-width: 600px) {
+  .uno,.dos{
+    visibility: visible;
+  }
+  .tres,.cuatro,.cinco{
+      display:none;
+    /*visibility: hidden;*/
+  }
+}
+/* Estilos para tablet */
+@media only screen and (min-width: 600px) and
+(max-width: 960px) {
+  .uno,.dos,.tres{
+      visibility: visible;
+  }
+  .cuatro,.cinco{
+    /*visibility: hidden;*/
+    display:none;
+  }
+}
+
+/* Estilos para desktop */
+@media only screen and (min-width: 961px) {
+  .uno,.dos,.tres,.cuatro,{
+    visibility: visible;
+  }
+  .cinco{
+    display:none;
+    /*visibility: hidden;*/
+  }
+}
