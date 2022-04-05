@@ -6,6 +6,8 @@
     $(document).ready(function(){
       $("button").click(function(){
         $("div").animate({left: '250px'});
+        $("div").animate({bottom: '250px'});
+          $("div").animate({top: '250px'});
       });
     });
   </script>
@@ -14,7 +16,9 @@
 
   <button>Comenzar animacion</button>
 
-  <p>De forma predeterminada, todos los elementos HTML tienen una posición estática y no se pueden mover. Para manipular la posición, recuerde establecer primero la propiedad de posición CSS del elemento en relativa, fija o absoluta.</p>
+  <p>De forma predeterminada, todos los elementos HTML tienen una posición estática y no se pueden mover.
+    Para manipular la posición, recuerde establecer primero la propiedad de posición CSS del elemento en relativa, fija o absoluta.
+  </p>
 
   <div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>
 

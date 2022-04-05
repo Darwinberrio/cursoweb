@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Ejercicio 04</title>
+	<!-- Realiza un script que pida números hasta que se pulse “cancelar”. Si no es un número
+	deberá indicarse con un «alert» y seguir pidiendo. Al salir con “cancelar” deberá
+	indicarse la suma total de los números introducidos. -->
+	<meta charset="utf-8" />
+</head>
+<body>
+	<script>
+	//DECLARAMOS LA VARIABLE SUMA
+	var suma = 0;
+	var contador = 1;
+	//BUCLE DO WHILE PARA INTRODUCIR VARIOS
+	do {
+		//PEDIMOS EL NÚMERO POR TECLADO
+		var numero = prompt("Introduzca 5 numeros para sumarlos");
+		//COMPROBAMOS QUE LO INTRODUCIDO ES UN NÚMERO
+		if (Number(numero) == numero) {
+			//CONVERTIMOS EL NÚMERO EN INTEGER (POR SI ACASO)
+			numero = Number(numero);
+			//SUMAMOS LO QUE HAY EN LA VARIABLE SUMA CON ESE NÚMERO
+			suma = suma + numero;
+			contador = contador + 1
+		}
+		//SI LO INTRODUCIDO NO ES UN NÚMERO
+		else {
+			//SI SE PULSÓ ACEPTAR SIN PONER UN NÚMERO VÁLIDO
+			if (numero != undefined) {
+				alert(numero + " No es un numero");
+			}
+		}
+		//VOLVEMOS ARRIBA MIENTRAS NO SE PULSE CANCELAR
+	} while (contador <= 5);
+	//SI SE PULSÓ CANCELAR SALE DEL BUCLE E IMPRIME EL RESULTADO
+	document.write("La suma de los numeros introducidos es "+suma);
+	</script>
+</body>
+</html>

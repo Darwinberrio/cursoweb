@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio 01</title>
+    <!-- Realiza un script que pida la edad y si es mayor de 18 años indica que ya puede conducir. -->
+  </head>
+  <body>
+    <script>
+  	//PIDE POR TECLADO LA EDAD
+  	var edad = prompt("Introduce tu edad");
+  	//COMPRUEBA QUE LO INTRODUCIDO ES UN NÚMERO
+  	if (Number(edad) == edad) {
+  		//SI ES MAYOR DE 18
+  		if (edad >= 18 && edad<80) {
+  			//IMPRIME EN PANTALLA EL MENSAJE
+  			document.write("Puedes conducir");
+  		}else{
+        document.write("No puedes conducir");
+      }
+  	//SINÓ
+  	} else {
+  		//MUESTRA UN MENSAJE
+  		alert("Introduce un numero válido");
+  	}
+  	</script>
+  </body>
+</html>
