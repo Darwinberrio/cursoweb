@@ -1,5 +1,5 @@
 //opcion 1
-/*
+
 var x;
 x=$(document);
 x.ready(inicializarEventos);
@@ -13,10 +13,9 @@ function ocultarMostrarRecuadro() {
   x.toggle("slow");
 }
 
-*/
-
 
 //opcion 2
+/*
 
 $(document).ready(function(){
 
@@ -24,4 +23,4 @@ $(document).ready(function(){
     $("#descripcion").toggle("slow");
 	});
 
-});
+});*/

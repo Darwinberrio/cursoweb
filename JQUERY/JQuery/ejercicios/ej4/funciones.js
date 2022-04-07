@@ -20,7 +20,6 @@ x.ready(function(){
     x.css("color","#E713C2");
     x.css("background-color","#64E713");
     x.css("font-family","\'Arial\'");
-
   });
 })
 */
